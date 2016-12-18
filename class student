@@ -1,0 +1,27 @@
+class student:
+   #constructor
+   def __init__(self,name="john",last_name="smith",student_number="1478598",course="computer science"):
+      self.name = name
+      self.last_name = last_name
+      self.student_number = student_number
+      self.course = course
+
+   def showDetails(self) :
+      print(self.name, self.last_name, self.student_number, self.course)
+      
+   
+      
+   
+      
+
+s0 = student() 
+s1 = student("Elizabeth","Gren",2415654,"Buisness")
+s2 = student("Thomas","jhonson",656666,"Architecture")
+
+student = [s0, s1, s2]         # print list of objects using the method showDetails
+for s in student:
+   print()
+   s.showDetails()
+
+
+
